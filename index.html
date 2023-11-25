@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="age">
+            <h1 class="d-flex justify-content-center align-content-center">Age is just a number</h1>
+          </div>
+          <div class="calculator">
+            <h2 class="d-flex justify-content-center align-content-center">How Old Are You?</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row rounded-3 shadow py-5 d-flex justify-content-center align-content-center px-5">
+        <div class="col-lg-4">
+          <div class="age">
+            <div class="dd">
+              <h3 class="text-center p-3">Day</h3>
+              <input type="text" class="form-control" name="Day" id="date" placeholder="DD" required="required"
+                minlength="1" maxlength="2">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="age">
+            <div class="mm">
+              <h3 class="text-center p-3">Month</h3>
+              <input type="text" class="form-control" name="month" id="Month" placeholder="MM" required="required"
+                minlength="1" maxlength="2">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="age">
+            <div class="yy">
+              <h3 class="text-center p-3">Year</h3>
+              <input type="text" class="form-control" name="year" id="Year" placeholder="YY" required="required"
+                minlength="4" maxlength="4">
+            </div>
+          </div>
+        </div>
+        <div class="submitt d-flex justify-content-center align-content-center m-4 p-2">
+          <button class="btn btn-outline-secondary fw-bolder rounded-pill" onclick="age()" value="Submit">Submit</button>
+        </div>
+        <div id="final">
+          <h3></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <script src="JS/bootstrap.bundle.min.js"></script>
+ <script src="index.js"></script>
+  </body>
+  </html>

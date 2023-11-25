@@ -1,0 +1,46 @@
+body{
+    background-image: url(paper-texture-colorful-abstract-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.main h1{
+    color: #A7C6B7;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    text-shadow: 1px 1px #FFF1E2 ;
+}
+.main h2{
+    color: #A7C6B7;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    text-shadow: 1px 1px #FFF1E2 ;
+}
+.main h3{
+    color: #A7C6B7;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px #FFF1E2 ;
+}
+.submitt button{
+    color: #A7C6B7;
+ font-size: 1rem;
+ border-color: #A7C6B7;
+}
+.submitt button:hover{
+    background-color: #A7C6B7;
+    border-color: #A7C6B7;
+}
+input{
+    max-width: 15rem;
+    margin: auto;
+}
+#final{
+    color: #FEA990;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px #FFF1E2 ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
